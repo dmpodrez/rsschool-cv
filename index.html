@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;300;500&family=Josefin+Sans:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="center">
+      <header>
+        <img src="myphoto.jpeg" alt="My photo" width="240" height="240" />
+        <h1>DMITRY PODREZ</h1>
+        <h2>JUNIOR FRONTEND DEVELOPER</h2>
+      </header>
+      <main>
+        <div class="contacts">
+          <ul>
+            <li><a href="https://t.me/@DimaPodrez">@DimaPodrez</a></li>
+            <li><a href="https://wa.me/375292370704">+48-512-072-398</a></li>
+            <li>
+              <a href="mailto:dima.padrez.00@icloud.com"
+                >dima.padrez.00@icloud.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="columns">
+          <div class="first">
+            <section class="myself">
+              <h2>ABOUT MYSELF:</h2>
+              <p>
+                At the moment, I have such skills as HTML, CSS, JavaScript, Git
+                and PHP(just basic level). Today I am familiar with the work of
+                the framework - Node.js. Now I devote time to TypeScript and its
+                more in-depth study.
+              </p>
+              <p>
+                At the moment, I have such projects as: UberEats, the Louvre,
+                Momentum, CSSMemSlider and finishing the project AtrQuiz. Also I
+                have work experience about 1 year, but, unfortunately, it is not
+                related to IT.
+              </p>
+              <p>
+                However, I learned to work in a team and felt through myself
+                what it means to work by hands. I am stress-resistant,
+                attentive, purposeful, always set goals and achieve them, I like
+                to put myself in a strict framework.
+              </p>
+            </section>
+            <section class="skills">
+              <h2>SKILLS:</h2>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>Node.js(basic)</li>
+                <li>PHP(basic)</li>
+                <li>React.js(basic)</li>
+              </ul>
+            </section>
+          </div>
+          <div class="second">
+            <section class="education">
+              <h2>EDUCATION:</h2>
+              <ul>
+                <li>
+                  BSU, Faculty of International Relationships, Customs
+                  Affairs(logistics direction), fourth-year
+                </li>
+                <li>Lyceum of BRU (physical and mathematical direction)</li>
+              </ul>
+            </section>
+            <section class="courses">
+              <h2>COURSES:</h2>
+              <ul>
+                <li>RS Schools Course JavaScript/Front-end.</li>
+                <li>JavaScript on (https://learn.javascript.ru)</li>
+                <li>HTML5 and CSS3 on (https://welcome.stepik.org/ru)</li>
+                <li>Git on (https://learngitbranching.js.org/?locale=ru_RU)</li>
+              </ul>
+            </section>
+            <section class="lang">
+              <h2>LANGUAGES:</h2>
+              <ul>
+                <li>English(B2)</li>
+                <li>Spanish(A2)</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <section class="code">
+          <h2>CODE EXAMPLE:</h2>
+          <pre>
+                       <code>
+                         String.prototype.toJadenCase = function () {
+                         var str=this;
+                         let z =[];
+                         let y = 1;
+                         let x = str.split(' ');
+                          for (let word of x){
+                            word = word.charAt(0).toUpperCase()+word.substr(1)+"";
+                            z += word;
+                          }
+                         return z.substring(0, z.length - 1);
+                          }
+                      </code>
+                   </pre>
+        </section>
+        <section class="project">
+          <h2>RECENT PROJECTS:</h2>
+          <a
+            class="project_link"
+            href="https://eloquent-bohr-a9ec69.netlify.app"
+          >
+            <img
+              class="project_img"
+              src="pj.png"
+              alt="project"
+              width="700"
+              height="400"
+            />
+          </a>
+          <a
+            class="project_link"
+            href="https://rolling-scopes-school.github.io/heinrich-marx-JSFE2021Q3/museum-dom/#section_Visiting"
+          >
+            <img
+              class="project_img"
+              src="jp1.png"
+              alt="project"
+              width="700"
+              height="400"
+            />
+          </a>
+          <a
+            class="project_link"
+            href="https://rolling-scopes-school.github.io/dmpodrez-JSFE2021Q3/momentum/"
+          >
+            <img
+              class="project_img"
+              src="momentum.png"
+              alt="project"
+              width="700"
+              height="400"
+            />
+          </a>
+          <a
+            class="project_link"
+            href="https://dmpodrez.github.io/cssMemSlider/cssMemSlider/index.html"
+          >
+            <img
+              class="project_img"
+              src="MemSlider.png"
+              alt="project"
+              width="700"
+              height="400"
+            />
+          </a>
+          <a
+            class="project_link"
+            href="https://rolling-scopes-school.github.io/dmpodrez-JSFE2022Q1/shelter/"
+          >
+            <img
+              class="project_img"
+              src="Start screen.png"
+              alt="project"
+              width="700"
+              height="400"
+            />
+          </a>
+        </section>
+      </main>
+      <footer>
+        <a class="github" href="https://github.com/dmpodrez">
+          <img src="github.svg" alt="GitHub" width="26" height="26" />
+          <p>GitHub</p>
+        </a>
+        <p>2022</p>
+        <a href="https://rs.school/js/">
+          <img src="rsschool.svg" alt="RSSchool" width="70" height="26" />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
