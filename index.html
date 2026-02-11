@@ -28,8 +28,17 @@
       <main>
         <div class="contacts">
           <ul>
-            <li><a href="https://t.me/@DimaPodrez">@DimaPodrez</a></li>
-            <li><a href="https://wa.me/375292370704">+48-573-256-999</a></li>
+            <li>
+              <a href="https://t.me/DimaPodrez" target="_blank" rel="noopener"
+                >Telegram: @DimaPodrez</a
+              >
+            </li>
+            <li>
+              <a href="https://wa.me/48573256999" target="_blank" rel="noopener"
+                >WhatsApp: +48 573 256 999</a
+              >
+            </li>
+
             <li>
               <a href="mailto:dima.padrez.00@icloud.com"
                 >dima.padrez.00@icloud.com</a
@@ -103,23 +112,19 @@
         </div>
         <section class="code">
           <h2>CODE EXAMPLE:</h2>
-          <pre>
-                       <code>
-                        <span class="keyword">function</span> getActiveUsers(users) {
-                          <span class="keyword">return</span> users
-                            .<span class="method">filter</span>(user => user.isActive)
-                            .<span class="method">sort</span>((a, b) => a.age - b.age)
-                            .<span class="method">map</span>(user => user.name);
-                        }
-                        
-                        <span class="keyword">const</span> users = [
-                          { <span class="property">name</span>: <span class="string">"Alex"</span>, <span class="property">age</span>: 25, <span class="property">isActive</span>: <span class="boolean">true</span> },
-                          { <span class="property">name</span>: <span class="string">"John"</span>, <span class="property">age</span>: 30, <span class="property">isActive</span>: <span class="boolean">false</span> }
-                        ];
-                        
-                        <span class="object">console</span>.<span class="method">log</span>(getActiveUsers(users));
-                      </code>
-                   </pre>
+          <pre><code><span class="keyword">function</span> getActiveUsers(users) {
+            <span class="keyword">return</span> users
+              .<span class="method">filter</span>(user =&gt; user.isActive)
+              .<span class="method">sort</span>((a, b) =&gt; a.age - b.age)
+              .<span class="method">map</span>(user =&gt; user.name);
+          }
+          
+          <span class="keyword">const</span> users = [
+            { <span class="property">name</span>: <span class="string">"Alex"</span>, <span class="property">age</span>: 25, <span class="property">isActive</span>: <span class="boolean">true</span> },
+            { <span class="property">name</span>: <span class="string">"John"</span>, <span class="property">age</span>: 30, <span class="property">isActive</span>: <span class="boolean">false</span> }
+          ];
+          
+          <span class="object">console</span>.<span class="method">log</span>(getActiveUsers(users));</code></pre>
         </section>
         <section class="project">
           <h2>RECENT PROJECTS:</h2>
