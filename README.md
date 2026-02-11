@@ -1,1 +1,1 @@
-https://dmpodrez.github.io/rsschool-cv/html-cv
+https://dmpodrez.github.io/html-cv
