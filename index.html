@@ -16,7 +16,12 @@
   <body>
     <div class="center">
       <header>
-        <img src="myphoto.jpeg" alt="My photo" width="240" height="240" />
+        <img
+          src="pictures/myphoto.jpeg"
+          alt="My photo"
+          width="240"
+          height="240"
+        />
         <h1>DMITRY PODREZ</h1>
         <h2>FRONTEND DEVELOPER</h2>
       </header>
@@ -24,7 +29,7 @@
         <div class="contacts">
           <ul>
             <li><a href="https://t.me/@DimaPodrez">@DimaPodrez</a></li>
-            <li><a href="https://wa.me/375292370704">+48-512-072-398</a></li>
+            <li><a href="https://wa.me/375292370704">+48-573-256-999</a></li>
             <li>
               <a href="mailto:dima.padrez.00@icloud.com"
                 >dima.padrez.00@icloud.com</a
@@ -37,20 +42,18 @@
             <section class="myself">
               <h2>ABOUT MYSELF:</h2>
               <p>
-                I have such skills as HTML, CSS, JavaScript, Git, Node.js
-                (basic) and React(just basic skills). Now I devote time to React
-                and Typescript. Its more in-depth study.
+                I am a motivated and disciplined beginner Front-End Developer
+                focused on building clean and user-friendly web applications. I
+                have experience with HTML, CSS, JavaScript, and basic React. I
+                enjoy solving problems, improving code quality, and continuously
+                learning new technologies.
               </p>
               <p>
-                At the moment, I have many projects and some of them you can see
-                under this page. Now I'm finishing the project AtrQuiz (for
-                mobile platform). Also I have work experience about 1 year, but,
-                unfortunately, it is not related to IT.
-              </p>
-              <p>
-                However, I learned to work in a team and felt through myself
-                what it means to work by hands. I am stress-resistant,
-                attentive, purposeful, always set goals and achieve them.
+                My background in logistics and physically demanding jobs has
+                strengthened my responsibility, time management, and ability to
+                work under pressure. Now I am fully focused on transitioning
+                into IT and developing strong technical skills to grow as a
+                developer.
               </p>
             </section>
             <section class="skills">
@@ -59,8 +62,10 @@
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>Git</li>
                 <li>Node.js(basic)</li>
+                <li>Python(basic)</li>
                 <li>PHP(basic)</li>
                 <li>React.js(basic)</li>
               </ul>
@@ -80,7 +85,7 @@
             <section class="courses">
               <h2>COURSES:</h2>
               <ul>
-                <li>RS Schools Course JavaScript/Front-end.</li>
+                <li>RS Schools Course JavaScript/Front-end (2021-2022)</li>
                 <li>JavaScript on (https://learn.javascript.ru)</li>
                 <li>HTML5 and CSS3 on (https://welcome.stepik.org/ru)</li>
                 <li>Git on (https://learngitbranching.js.org/?locale=ru_RU)</li>
@@ -90,6 +95,7 @@
               <h2>LANGUAGES:</h2>
               <ul>
                 <li>English(B2)</li>
+                <li>Polish(B1)</li>
                 <li>Spanish(A2)</li>
               </ul>
             </section>
@@ -99,17 +105,19 @@
           <h2>CODE EXAMPLE:</h2>
           <pre>
                        <code>
-                         String.prototype.toJadenCase = function () {
-                         var str=this;
-                         let z =[];
-                         let y = 1;
-                         let x = str.split(' ');
-                          for (let word of x){
-                            word = word.charAt(0).toUpperCase()+word.substr(1)+"";
-                            z += word;
-                          }
-                         return z.substring(0, z.length - 1);
-                          }
+                        <span class="keyword">function</span> getActiveUsers(users) {
+                          <span class="keyword">return</span> users
+                            .<span class="method">filter</span>(user => user.isActive)
+                            .<span class="method">sort</span>((a, b) => a.age - b.age)
+                            .<span class="method">map</span>(user => user.name);
+                        }
+                        
+                        <span class="keyword">const</span> users = [
+                          { <span class="property">name</span>: <span class="string">"Alex"</span>, <span class="property">age</span>: 25, <span class="property">isActive</span>: <span class="boolean">true</span> },
+                          { <span class="property">name</span>: <span class="string">"John"</span>, <span class="property">age</span>: 30, <span class="property">isActive</span>: <span class="boolean">false</span> }
+                        ];
+                        
+                        <span class="object">console</span>.<span class="method">log</span>(getActiveUsers(users));
                       </code>
                    </pre>
         </section>
@@ -121,7 +129,7 @@
           >
             <img
               class="project_img"
-              src="pj.png"
+              src="pictures/pj.png"
               alt="project"
               width="700"
               height="400"
@@ -133,7 +141,7 @@
           >
             <img
               class="project_img"
-              src="jp1.png"
+              src="pictures/jp1.png"
               alt="project"
               width="700"
               height="400"
@@ -145,7 +153,7 @@
           >
             <img
               class="project_img"
-              src="momentum.png"
+              src="pictures/momentum.png"
               alt="project"
               width="700"
               height="400"
@@ -157,7 +165,7 @@
           >
             <img
               class="project_img"
-              src="MemSlider.png"
+              src="pictures/MemSlider.png"
               alt="project"
               width="700"
               height="400"
@@ -169,7 +177,7 @@
           >
             <img
               class="project_img"
-              src="Start screen.png"
+              src="pictures/Start screen.png"
               alt="project"
               width="700"
               height="400"
@@ -179,12 +187,17 @@
       </main>
       <footer>
         <a class="github" href="https://github.com/dmpodrez">
-          <img src="github.svg" alt="GitHub" width="26" height="26" />
+          <img src="pictures/github.svg" alt="GitHub" width="26" height="26" />
           <p>GitHub</p>
         </a>
-        <p>2022</p>
+        <p>© 2021–2026</p>
         <a href="https://rs.school/js/">
-          <img src="rsschool.svg" alt="RSSchool" width="70" height="26" />
+          <img
+            src="pictures/rsschool.svg"
+            alt="RSSchool"
+            width="70"
+            height="26"
+          />
         </a>
       </footer>
     </div>
