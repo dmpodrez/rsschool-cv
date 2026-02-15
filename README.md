@@ -6,4 +6,4 @@ https://dmpodrez.github.io/rsschool-cv/
 
 ## Markdown version
 
-https://github.com/dmpodrez/rsschool-cv/blob/main/cv.md
+https://github.com/dmpodrez/rsschool-cv/blob/gh-pages/cv.md
