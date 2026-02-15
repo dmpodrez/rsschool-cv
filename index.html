@@ -172,6 +172,18 @@
               height="400"
             />
           </a>
+          <a
+            class="project_link"
+            href="https://github.com/dmpodrez/musicrelocator"
+          >
+            <img
+              class="project_img"
+              src="pictures/784h440_596617a4b0.png"
+              alt="project"
+              width="700"
+              height="400"
+            />
+          </a>
         </section>
       </main>
       <footer>
@@ -191,4 +203,31 @@
       </footer>
     </div>
   </body>
+  <script>
+    const sections = document.querySelectorAll("section[id], div[id]");
+    const navLinks = document.querySelectorAll(".main-nav a");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop - 120;
+        const sectionHeight = section.offsetHeight;
+
+        if (
+          window.scrollY >= sectionTop &&
+          window.scrollY < sectionTop + sectionHeight
+        ) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
 </html>

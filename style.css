@@ -3,7 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   background: #f4f6fb;
@@ -259,6 +261,15 @@ footer > a {
 
 .main-nav a:hover {
   opacity: 0.85;
+}
+
+.main-nav a.active::after {
+  width: 100%;
+}
+
+.main-nav a.active {
+  opacity: 1;
+  font-weight: 600;
 }
 
 @media (max-width: 1024px) {
