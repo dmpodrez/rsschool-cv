@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
@@ -25,12 +24,21 @@
         <h1>DMITRY PODREZ</h1>
         <h2>FRONTEND DEVELOPER</h2>
       </header>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+
       <main>
-        <div class="contacts">
+        <div id="contacts" class="contacts">
           <ul>
             <li>
               <a href="https://t.me/DimaPodrez" target="_blank" rel="noopener"
-                >Telegram: @DimaPodrez</a
+                >Telegram: DimaPodrez</a
               >
             </li>
             <li>
@@ -48,7 +56,7 @@
         </div>
         <div class="columns">
           <div class="first">
-            <section class="myself">
+            <section id="about" class="myself">
               <h2>ABOUT MYSELF:</h2>
               <p>
                 I am a motivated and disciplined beginner Front-End Developer
@@ -65,7 +73,7 @@
                 developer.
               </p>
             </section>
-            <section class="skills">
+            <section id="skills" class="skills">
               <h2>SKILLS:</h2>
               <ul>
                 <li>HTML5</li>
@@ -126,7 +134,7 @@
           
           <span class="object">console</span>.<span class="method">log</span>(getActiveUsers(users));</code></pre>
         </section>
-        <section class="project">
+        <section id="projects" class="project">
           <h2>RECENT PROJECTS:</h2>
           <a
             class="project_link"
@@ -135,30 +143,6 @@
             <img
               class="project_img"
               src="pictures/pj.png"
-              alt="project"
-              width="700"
-              height="400"
-            />
-          </a>
-          <a
-            class="project_link"
-            href="https://rolling-scopes-school.github.io/heinrich-marx-JSFE2021Q3/museum-dom/#section_Visiting"
-          >
-            <img
-              class="project_img"
-              src="pictures/jp1.png"
-              alt="project"
-              width="700"
-              height="400"
-            />
-          </a>
-          <a
-            class="project_link"
-            href="https://rolling-scopes-school.github.io/dmpodrez-JSFE2021Q3/momentum/"
-          >
-            <img
-              class="project_img"
-              src="pictures/momentum.png"
               alt="project"
               width="700"
               height="400"

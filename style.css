@@ -16,7 +16,6 @@ body {
 .center {
   max-width: 1024px;
   margin: 20px auto;
-  padding: 0 24px;
   background-color: #ffffff;
   border-radius: 18px;
   overflow: hidden;
@@ -68,7 +67,7 @@ header img:hover {
 }
 
 .contacts {
-  background-color: rgb(49, 57, 175);
+  background: linear-gradient(90deg, rgb(49, 57, 175), rgb(72, 81, 255));
   color: white;
   padding: 14px 16px;
 }
@@ -200,7 +199,7 @@ code {
 }
 
 footer {
-  background-color: rgb(49, 57, 175);
+  background: linear-gradient(90deg, rgb(49, 57, 175), rgb(72, 81, 255));
   color: white;
   display: flex;
   justify-content: space-between;
@@ -215,6 +214,51 @@ footer > a {
   gap: 10px;
   color: white;
   text-decoration: none;
+}
+/* ===== Navigation ===== */
+.main-nav {
+  background: linear-gradient(90deg, rgb(49, 57, 175), rgb(72, 81, 255));
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+.main-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: white;
+  transition: 0.3s ease;
+}
+
+.main-nav a:hover::after {
+  width: 100%;
+}
+
+.main-nav a:hover {
+  opacity: 0.85;
 }
 
 @media (max-width: 1024px) {
@@ -246,5 +290,11 @@ footer > a {
   footer {
     flex-direction: column;
     text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  .main-nav ul {
+    flex-wrap: wrap;
+    gap: 15px 20px;
   }
 }
