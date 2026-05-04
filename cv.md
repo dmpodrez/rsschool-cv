@@ -11,7 +11,7 @@
 
 ## About Myself:
 
-I am a motivated and disciplined beginner Front-End Developer focused on building clean and user-friendly web applications. I have experience with HTML, CSS, JavaScript, and basic React. I enjoy solving problems, improving code quality, and continuously learning new technologies.
+I am a motivated and disciplined beginner Front-End Developer focused on building clean and user-friendly web applications. I have experience with HTML, CSS, JavaScript, React and basic Angular. I enjoy solving problems, improving code quality, and continuously learning new technologies.
 
 My background in logistics and physically demanding jobs has strengthened my responsibility, time management, and ability to work under pressure. Now I am fully focused on transitioning into IT and developing strong technical skills to grow as a developer.
 
@@ -24,6 +24,7 @@ My background in logistics and physically demanding jobs has strengthened my res
 - React
 - Node.js
 - PHP
+- Angular
 
 ## Code Example:
 
